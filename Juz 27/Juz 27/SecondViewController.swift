@@ -13,7 +13,8 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var myImageView: UIImageView!
-    @IBAction func play(_ sender: Any) {
+    @IBAction func play(_ sender: Any)
+    {
         if audioStuffed == true && audioPlayer.isPlaying == false
         {
             audioPlayer.play()

@@ -9,8 +9,8 @@
 import UIKit
 import AVFoundation
 
-var surahs:[String] = []
 var audioPlayer = AVAudioPlayer()
+var surahs:[String] = []
 var thisSurah = 0
 var audioStuffed = false
 
@@ -23,7 +23,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
         cell.textLabel?.text = surahs[indexPath.row]
         return cell
     }
@@ -58,7 +58,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     func getSurahName()
     {
-        let folderURL = URL(fileURLWithPath: Bundle.main.resourcePath!)
+        let folderURL = URL(fileURLWithPath:Bundle.main.resourcePath!)
         do
         {
             let surahPath = try FileManager.default.contentsOfDirectory(at: folderURL, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
@@ -81,7 +81,8 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         }
         catch
         {
-            
+            print ("ERROR")
+
         }
     }
 
