@@ -59,7 +59,6 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func getSurahName()
     {
         let folderURL = URL(fileURLWithPath: Bundle.main.resourcePath!)
-        
         do
         {
             let surahPath = try FileManager.default.contentsOfDirectory(at: folderURL, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
