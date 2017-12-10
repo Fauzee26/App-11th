@@ -49,13 +49,13 @@
 		A06D1A311FC6499800D40AB1 /* Juz 27UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Juz 27UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06D1A351FC6499800D40AB1 /* Juz_27UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juz_27UITests.swift; sourceTree = "<group>"; };
 		A06D1A371FC6499800D40AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A071BAD51FC6CB610092336E /* 051_SURAT_AZ_ZARIYAT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 051_SURAT_AZ_ZARIYAT.mp3; sourceTree = "<group>"; };
-		A071BAD61FC6CB610092336E /* 052_SURAT_AT_TUR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 052_SURAT_AT_TUR.mp3; sourceTree = "<group>"; };
-		A071BAD71FC6CB610092336E /* 053_SURAT_AN_NAJM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 053_SURAT_AN_NAJM.mp3; sourceTree = "<group>"; };
-		A071BAD81FC6CB610092336E /* 054_SURAT_AL_QAMAR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 054_SURAT_AL_QAMAR.mp3; sourceTree = "<group>"; };
-		A071BAD91FC6CB610092336E /* 055_SURAT_AR_RAHMAN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 055_SURAT_AR_RAHMAN.mp3; sourceTree = "<group>"; };
-		A071BADA1FC6CB610092336E /* 056_SURAT_AL_WAQI'AH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "056_SURAT_AL_WAQI'AH.mp3"; sourceTree = "<group>"; };
-		A071BADB1FC6CB610092336E /* 057_SURAT_AL_HADID.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 057_SURAT_AL_HADID.mp3; sourceTree = "<group>"; };
+		A0E83E0B1FDA76F300FF75CC /* Az Zariyat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Az Zariyat.mp3"; sourceTree = "<group>"; };
+		A0E83E0C1FDA76F300FF75CC /* At Tur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "At Tur.mp3"; sourceTree = "<group>"; };
+		A0E83E0D1FDA76F300FF75CC /* An Najm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "An Najm.mp3"; sourceTree = "<group>"; };
+		A0E83E0E1FDA76F300FF75CC /* Al Qamar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Al Qamar.mp3"; sourceTree = "<group>"; };
+		A0E83E0F1FDA76F300FF75CC /* Ar Rahman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ar Rahman.mp3"; sourceTree = "<group>"; };
+		A0E83E101FDA76F300FF75CC /* Al Waqiah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Al Waqiah.mp3"; sourceTree = "<group>"; };
+		A0E83E111FDA76F300FF75CC /* Al Hadid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Al Hadid.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +111,9 @@
 				A06D1A171FC6499800D40AB1 /* SecondViewController.swift */,
 				A06D1A191FC6499800D40AB1 /* Main.storyboard */,
 				A06D1A1C1FC6499800D40AB1 /* Assets.xcassets */,
+				A0E83E0A1FDA76F300FF75CC /* Surah */,
 				A06D1A1E1FC6499800D40AB1 /* LaunchScreen.storyboard */,
 				A06D1A211FC6499800D40AB1 /* Info.plist */,
-				A071BAD41FC6CB610092336E /* Surah */,
 			);
 			path = "Juz 27";
 			sourceTree = "<group>";
@@ -136,19 +136,19 @@
 			path = "Juz 27UITests";
 			sourceTree = "<group>";
 		};
-		A071BAD41FC6CB610092336E /* Surah */ = {
+		A0E83E0A1FDA76F300FF75CC /* Surah */ = {
 			isa = PBXGroup;
 			children = (
-				A071BAD51FC6CB610092336E /* 051_SURAT_AZ_ZARIYAT.mp3 */,
-				A071BAD61FC6CB610092336E /* 052_SURAT_AT_TUR.mp3 */,
-				A071BAD71FC6CB610092336E /* 053_SURAT_AN_NAJM.mp3 */,
-				A071BAD81FC6CB610092336E /* 054_SURAT_AL_QAMAR.mp3 */,
-				A071BAD91FC6CB610092336E /* 055_SURAT_AR_RAHMAN.mp3 */,
-				A071BADA1FC6CB610092336E /* 056_SURAT_AL_WAQI'AH.mp3 */,
-				A071BADB1FC6CB610092336E /* 057_SURAT_AL_HADID.mp3 */,
+				A0E83E0B1FDA76F300FF75CC /* Az Zariyat.mp3 */,
+				A0E83E0C1FDA76F300FF75CC /* At Tur.mp3 */,
+				A0E83E0D1FDA76F300FF75CC /* An Najm.mp3 */,
+				A0E83E0E1FDA76F300FF75CC /* Al Qamar.mp3 */,
+				A0E83E0F1FDA76F300FF75CC /* Ar Rahman.mp3 */,
+				A0E83E101FDA76F300FF75CC /* Al Waqiah.mp3 */,
+				A0E83E111FDA76F300FF75CC /* Al Hadid.mp3 */,
 			);
 			name = Surah;
-			path = ../../../../../Desktop/Surah;
+			path = ../../../../desktop/Surah;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
